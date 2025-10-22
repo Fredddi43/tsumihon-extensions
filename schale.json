@@ -6,7 +6,7 @@
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "cloud_sync",
-  "category": "self_hosted",
+  "category": "aggregator",
   "baseUrl": "https://niyaniya.moe",
   "capabilities": {
     "supportsSearch": true,

@@ -13,7 +13,7 @@
       "version": "1.0.0",
       "author": "Tsumihon",
       "icon": "cloud_sync",
-      "category": "self_hosted",
+      "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/schale.json"
     },
     {
