@@ -14,7 +14,7 @@
       "author": "Tsumihon",
       "icon": "cloud_sync",
       "category": "self_hosted",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/schale.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/schale.json"
     },
     {
       "id": "chaika",
@@ -24,7 +24,7 @@
       "author": "Tsumihon",
       "icon": "cloud_queue",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/chaika.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/chaika.json"
     },
     {
       "id": "nhentai",
@@ -34,7 +34,7 @@
       "author": "Tsumihon",
       "icon": "library_books",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/nhentai.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/nhentai.json"
     },
     {
       "id": "hentag",
@@ -44,7 +44,7 @@
       "author": "Tsumihon",
       "icon": "manage_search",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/hentag.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hentag.json"
     },
     {
       "id": "hdoujin",
@@ -54,7 +54,7 @@
       "author": "Tsumihon",
       "icon": "collections_bookmark",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/hdoujin.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hdoujin.json"
     },
     {
       "id": "ehentai",
@@ -64,7 +64,7 @@
       "author": "Tsumihon",
       "icon": "archive",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/ehentai.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ehentai.json"
     },
     {
       "id": "lanraragi",
@@ -74,7 +74,7 @@
       "author": "Tsumihon",
       "icon": "dns",
       "category": "self_hosted",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/lanraragi.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/lanraragi.json"
     },
     {
       "id": "melonbooks",
@@ -84,7 +84,7 @@
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
-      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/melonbooks.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/melonbooks.json"
     }
   ]
 }
