@@ -1,0 +1,90 @@
+{
+  "repository": {
+    "name": "Official Tsumihon Extensions",
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-22T00:00:00Z",
+    "description": "Official extension repository for Tsumihon doujinshi tracker"
+  },
+  "extensions": [
+    {
+      "id": "schale",
+      "name": "Schale Network",
+      "description": "Multi-mirror doujinshi archive network with automatic fallback",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "cloud_sync",
+      "category": "self_hosted",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/schale.json"
+    },
+    {
+      "id": "chaika",
+      "name": "chaika.panda.moe",
+      "description": "Panda archive mirror with comprehensive search",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "cloud_queue",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/chaika.json"
+    },
+    {
+      "id": "nhentai",
+      "name": "nHentai",
+      "description": "Popular doujinshi and manga aggregator",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "library_books",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/nhentai.json"
+    },
+    {
+      "id": "hentag",
+      "name": "Hentag",
+      "description": "Doujinshi metadata aggregator and search service",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "manage_search",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/hentag.json"
+    },
+    {
+      "id": "hdoujin",
+      "name": "Hdoujin",
+      "description": "Doujinshi aggregator and archive",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "collections_bookmark",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/hdoujin.json"
+    },
+    {
+      "id": "ehentai",
+      "name": "E-hentai",
+      "description": "Large doujinshi archive (supports ExHentai with authentication)",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "archive",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/ehentai.json"
+    },
+    {
+      "id": "lanraragi",
+      "name": "LANraragi",
+      "description": "Self-hosted manga/doujinshi server (requires configuration)",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "dns",
+      "category": "self_hosted",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/lanraragi.json"
+    },
+    {
+      "id": "melonbooks",
+      "name": "Melonbooks",
+      "description": "Japanese doujinshi store (placeholder - not yet implemented)",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "storefront",
+      "category": "store",
+      "downloadUrl": "https://raw.githubusercontent.com/tsumihon/extensions/main/melonbooks.json"
+    }
+  ]
+}

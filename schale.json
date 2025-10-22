@@ -1,0 +1,34 @@
+{
+  "id": "schale",
+  "name": "Schale Network",
+  "description": "Multi-mirror doujinshi archive network with automatic fallback",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "cloud_sync",
+  "category": "self_hosted",
+  "baseUrl": "https://niyaniya.moe",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "schale_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/gallery/{id}"
+    },
+    "fallbackUrls": [
+      "https://niyaniya.moe",
+      "https://panda.chaika.moe"
+    ]
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}

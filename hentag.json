@@ -1,0 +1,30 @@
+{
+  "id": "hentag",
+  "name": "Hentag",
+  "description": "Doujinshi metadata aggregator and search service",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "manage_search",
+  "category": "aggregator",
+  "baseUrl": "https://hentag.com",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": false,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "hentag_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/search/id"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}

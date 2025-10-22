@@ -1,0 +1,30 @@
+{
+  "id": "chaika",
+  "name": "chaika.panda.moe",
+  "description": "Panda archive mirror with comprehensive search",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "cloud_queue",
+  "category": "aggregator",
+  "baseUrl": "https://panda.chaika.moe",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "chaika_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/gallery/{id}"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}

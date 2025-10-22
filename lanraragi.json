@@ -1,0 +1,49 @@
+{
+  "id": "lanraragi",
+  "name": "LANraragi",
+  "description": "Self-hosted manga/doujinshi server (requires configuration)",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "dns",
+  "category": "self_hosted",
+  "baseUrl": "",
+  "capabilities": {
+    "supportsSearch": false,
+    "supportsGetById": false,
+    "requiresAuth": false,
+    "supportsPagination": false,
+    "supportsImageSearch": false,
+    "requiresConfiguration": true
+  },
+  "apiConfig": {
+    "type": "generic_http",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/archives/{id}"
+    }
+  },
+  "settings": {
+    "type": "generic",
+    "fields": [
+      {
+        "key": "serverUrl",
+        "type": "url",
+        "label": "Server URL",
+        "hint": "Your LANraragi server URL (e.g., http://192.168.1.100:3000)",
+        "required": true
+      },
+      {
+        "key": "apiKey",
+        "type": "password",
+        "label": "API Key",
+        "hint": "API key from LANraragi settings (if enabled)",
+        "required": false
+      }
+    ]
+  },
+  "minAppVersion": "1.0.0",
+  "metadata": {
+    "note": "This extension is a placeholder. Full LANraragi support coming soon."
+  }
+}

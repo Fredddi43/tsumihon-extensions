@@ -1,0 +1,32 @@
+{
+  "id": "melonbooks",
+  "name": "Melonbooks",
+  "description": "Japanese doujinshi store (placeholder - not yet implemented)",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "storefront",
+  "category": "store",
+  "baseUrl": "https://www.melonbooks.co.jp",
+  "capabilities": {
+    "supportsSearch": false,
+    "supportsGetById": false,
+    "requiresAuth": false,
+    "supportsPagination": false,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "generic_http",
+    "endpoints": {
+      "search": "/search"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0",
+  "metadata": {
+    "note": "This extension is a placeholder. Melonbooks integration coming soon."
+  }
+}

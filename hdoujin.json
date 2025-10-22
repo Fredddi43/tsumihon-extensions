@@ -1,0 +1,30 @@
+{
+  "id": "hdoujin",
+  "name": "Hdoujin",
+  "description": "Doujinshi aggregator and archive",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "collections_bookmark",
+  "category": "aggregator",
+  "baseUrl": "https://hdoujin.org",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "hdoujin_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/gallery/{id}"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}

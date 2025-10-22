@@ -1,0 +1,30 @@
+{
+  "id": "nhentai",
+  "name": "nHentai",
+  "description": "Popular doujinshi and manga aggregator",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "library_books",
+  "category": "aggregator",
+  "baseUrl": "https://nhentai.net",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "nhentai_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/gallery/{id}"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}
