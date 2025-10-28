@@ -14,7 +14,8 @@
     "requiresAuth": false,
     "supportsPagination": true,
     "supportsImageSearch": true,
-    "requiresConfiguration": true
+    "requiresConfiguration": true,
+    "supportsReading": true
   },
   "apiConfig": {
     "type": "ehentai_api",

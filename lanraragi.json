@@ -14,7 +14,8 @@
     "requiresAuth": true,
     "supportsPagination": true,
     "supportsImageSearch": false,
-    "requiresConfiguration": true
+    "requiresConfiguration": true,
+    "supportsReading": true
   },
   "apiConfig": {
     "type": "lanraragi_api",

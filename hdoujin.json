@@ -14,7 +14,8 @@
     "requiresAuth": false,
     "supportsPagination": true,
     "supportsImageSearch": false,
-    "requiresConfiguration": false
+    "requiresConfiguration": false,
+    "supportsReading": false
   },
   "apiConfig": {
     "type": "hdoujin_api",
