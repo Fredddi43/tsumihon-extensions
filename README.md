@@ -1,6 +1,6 @@
 # Tsumihon Extensions Repository
 
-Official extensions for the Tsumihon doujinshi collection tracker.
+Extensions for the Tsumihon doujinshi collection tracker.
 
 ## Available Extensions
 
@@ -111,99 +111,6 @@ After installing an extension:
 - **Category:** Store
 - **Status:** Placeholder (coming soon)
 - **Note:** Future integration with Melonbooks.co.jp store
-
-## Creating Custom Extensions
-
-Want to add your own extension? Check out the [Extension System Documentation](../EXTENSION_SYSTEM.md) in the main Tsumihon repository.
-
-### Quick Start
-
-1. Create a JSON manifest file following the schema
-2. Host it on GitHub or any accessible URL
-3. In Tsumihon, go to Extensions → Install from URL
-4. Enter your JSON URL and install
-
-### Example Extension
-
-```json
-{
-  "id": "my_extension",
-  "name": "My Extension",
-  "description": "Description here",
-  "version": "1.0.0",
-  "author": "Your Name",
-  "icon": "extension",
-  "category": "aggregator",
-  "baseUrl": "https://api.example.com",
-  "capabilities": {
-    "supportsSearch": true,
-    "supportsGetById": false,
-    "supportsPagination": true
-  },
-  "apiConfig": {
-    "type": "generic_http",
-    "endpoints": {
-      "search": "/search?q={query}&page={page}"
-    },
-    "responseMapping": {
-      "resultsPath": "results",
-      "fieldMappings": {
-        "id": "id",
-        "title": "title",
-        "thumbnail": "thumb"
-      }
-    }
-  },
-  "settings": {
-    "type": "none"
-  }
-}
-```
-
-## Contributing
-
-To contribute an extension to this official repository:
-
-1. Fork this repository
-2. Add your extension JSON file
-3. Update `index.json` with your extension info
-4. Test thoroughly
-5. Submit a pull request
-
-### Submission Requirements
-
-- Extension must be tested and working
-- JSON must be valid and follow the schema
-- Description must be clear and accurate
-- Icon must be appropriate
-- No malicious or inappropriate content
-- API must be publicly accessible (or clearly documented if self-hosted)
-
-## Repository Structure
-
-```
-extensions/
-├── index.json          # Repository index
-├── schale.json         # Schale Network extension
-├── chaika.json         # Chaika extension
-├── nhentai.json        # nHentai extension
-├── hentag.json         # Hentag extension
-├── hdoujin.json        # Hdoujin extension
-├── ehentai.json        # E-hentai extension
-├── lanraragi.json      # LANraragi extension
-├── melonbooks.json     # Melonbooks extension
-└── README.md           # This file
-```
-
-## Version History
-
-### v1.0.0 (2025-01-22)
-
-- Initial release
-- 8 extensions available
-- Support for aggregators, self-hosted, and store categories
-- ExHentai authentication support
-- Generic HTTP API for custom extensions
 
 ## Support
 
