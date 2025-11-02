@@ -47,6 +47,16 @@
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hentag.json"
     },
     {
+      "id": "doujinshi",
+      "name": "Doujinshi.info",
+      "description": "Comprehensive doujinshi database with multilingual support",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "library_books",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/doujinshi.json"
+    },
+    {
       "id": "hdoujin",
       "name": "Hdoujin",
       "description": "Doujinshi aggregator and archive",
