@@ -7,7 +7,7 @@
   "authorUrl": null,
   "icon": "library_books",
   "category": "aggregator",
-  "baseUrl": "https://www.doujinshi.info/api",
+  "baseUrl": "https://api.doujinshi.info/v1",
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,
