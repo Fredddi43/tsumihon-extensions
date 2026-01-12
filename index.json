@@ -95,6 +95,16 @@
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/melonbooks.json"
+    },
+    {
+      "id": "hitomi",
+      "name": "Hitomi.la",
+      "description": "Search and browse galleries from Hitomi.la",
+      "version": "1.0.0",
+      "author": "Tsumihon Team",
+      "icon": "public",
+      "category": "aggregator",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hitomi.json"
     }
   ]
 }
