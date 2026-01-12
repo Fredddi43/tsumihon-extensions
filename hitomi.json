@@ -1,0 +1,31 @@
+{
+  "id": "hitomi",
+  "name": "Hitomi.la",
+  "description": "Search and browse galleries from Hitomi.la",
+  "version": "1.0.0",
+  "author": "Tsumihon Team",
+  "icon": "public",
+  "category": "aggregator",
+  "baseUrl": "https://hitomi.la",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false,
+    "requiresDownload": false,
+    "supportsDownload": true,
+    "supportsOnlineReading": true
+  },
+  "apiConfig": {
+    "type": "hitomi_api",
+    "endpoints": {
+      "search": "/search.html",
+      "gallery": "https://ltn.hitomi.la/galleries/{id}.js"
+    }
+  },
+  "settings": {
+    "type": "none"
+  }
+}
