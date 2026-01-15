@@ -1,0 +1,26 @@
+{
+  "id": "dlsite",
+  "name": "DLsite",
+  "description": "Digital doujin store (Maniax/Home/Books)",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "icon": "storefront",
+  "category": "store",
+  "baseUrl": "https://www.dlsite.com",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false,
+    "supportsReading": false
+  },
+  "apiConfig": {
+    "type": "dlsite_api"
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}
