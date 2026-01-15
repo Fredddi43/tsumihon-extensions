@@ -1,0 +1,31 @@
+{
+  "id": "dmm",
+  "name": "DMM (FANZA)",
+  "description": "Search and browse doujinshi from DMM/FANZA - Japan's leading digital content retailer",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "storefront",
+  "category": "store",
+  "baseUrl": "https://www.dmm.co.jp/dc/doujin",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "requiresConfiguration": false,
+    "supportsReading": false
+  },
+  "apiConfig": {
+    "type": "dmm_api",
+    "endpoints": {
+      "search": "/-/list/=/searchstr=",
+      "getById": "/-/detail/=/cid="
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0"
+}

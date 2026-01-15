@@ -105,6 +105,16 @@
       "icon": "public",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hitomi.json"
+    },
+    {
+      "id": "dmm",
+      "name": "DMM (FANZA)",
+      "description": "Search and browse doujinshi from DMM/FANZA - Japan's leading digital content retailer",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "storefront",
+      "category": "store",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm.json"
     }
   ]
 }
