@@ -116,9 +116,17 @@
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm.json"
     },
-    {
-      "id": "dlsite",
-      "name": "DLsite",
+          {
+            "id": "amazon_jp",
+            "name": "Amazon.co.jp",
+            "description": "Search for books on Amazon Japan",
+            "version": "1.0.0",
+            "author": "Tsumihon",
+            "icon": "storefront",
+            "category": "store",
+            "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/amazon_jp.json"
+          },      {
+        "id": "dlsite",      "name": "DLsite",
       "description": "Digital doujin store (Maniax/Home/Books)",
       "version": "1.0.0",
       "author": "Tsumihon",

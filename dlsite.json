@@ -13,6 +13,7 @@
     "requiresAuth": false,
     "supportsPagination": true,
     "supportsImageSearch": false,
+    "supportsIsbnScan": false,
     "requiresConfiguration": false,
     "supportsReading": false
   },

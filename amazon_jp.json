@@ -1,0 +1,28 @@
+{
+  "id": "amazon_jp",
+  "name": "Amazon.co.jp",
+  "description": "Search for books on Amazon Japan",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "icon": "storefront",
+  "category": "store",
+  "baseUrl": "https://www.amazon.co.jp",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": false,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "supportsIsbnScan": true,
+    "requiresConfiguration": false
+  },
+  "apiConfig": {
+    "type": "amazon_jp_api",
+    "endpoints": {
+      "search": "/s"
+    }
+  },
+  "settings": {
+    "type": "none"
+  }
+}
