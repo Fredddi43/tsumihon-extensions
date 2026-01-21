@@ -9,7 +9,7 @@
   "baseUrl": "https://www.amazon.co.jp",
   "capabilities": {
     "supportsSearch": true,
-    "supportsGetById": false,
+    "supportsGetById": true,
     "requiresAuth": false,
     "supportsPagination": true,
     "supportsImageSearch": false,
