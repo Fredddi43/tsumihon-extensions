@@ -16,7 +16,8 @@
     "supportsImageSearch": true,
     "supportsIsbnScan": false,
     "requiresConfiguration": false,
-    "supportsReading": false
+    "supportsReading": false,
+    "requiresCorsProxy": true
   },
   "apiConfig": {
     "type": "chaika_api",

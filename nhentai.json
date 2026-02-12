@@ -16,7 +16,8 @@
     "supportsImageSearch": false,
     "supportsIsbnScan": false,
     "requiresConfiguration": false,
-    "supportsReading": false
+    "supportsReading": false,
+    "requiresCorsProxy": true
   },
   "apiConfig": {
     "type": "nhentai_api",

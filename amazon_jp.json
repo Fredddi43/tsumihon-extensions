@@ -14,7 +14,8 @@
     "supportsPagination": true,
     "supportsImageSearch": false,
     "supportsIsbnScan": true,
-    "requiresConfiguration": false
+    "requiresConfiguration": false,
+    "requiresCorsProxy": true
   },
   "apiConfig": {
     "type": "amazon_jp_api",

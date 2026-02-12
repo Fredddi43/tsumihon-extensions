@@ -16,7 +16,8 @@
     "supportsImageSearch": false,
     "supportsIsbnScan": false,
     "requiresConfiguration": false,
-    "supportsReading": false
+    "supportsReading": false,
+    "requiresCorsProxy": false
   },
   "apiConfig": {
     "type": "doujinshi_info_api",

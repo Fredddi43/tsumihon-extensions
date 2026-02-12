@@ -17,7 +17,8 @@
     "requiresConfiguration": false,
     "requiresDownload": false,
     "supportsDownload": true,
-    "supportsOnlineReading": true
+    "supportsOnlineReading": true,
+    "requiresCorsProxy": true
   },
   "apiConfig": {
     "type": "hitomi_api",

@@ -16,7 +16,8 @@
     "supportsImageSearch": false,
     "supportsIsbnScan": false,
     "requiresConfiguration": true,
-    "supportsReading": true
+    "supportsReading": true,
+    "requiresCorsProxy": false
   },
   "apiConfig": {
     "type": "lanraragi_api",

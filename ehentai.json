@@ -16,7 +16,8 @@
     "supportsImageSearch": true,
     "supportsIsbnScan": false,
     "requiresConfiguration": true,
-    "supportsReading": true
+    "supportsReading": true,
+    "requiresCorsProxy": true
   },
   "apiConfig": {
     "type": "ehentai_api",
