@@ -7,7 +7,7 @@
   "authorUrl": null,
   "icon": "cloud_sync",
   "category": "aggregator",
-  "baseUrl": "https://niyaniya.moe",
+  "baseUrl": "https://shupogaki.moe",
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,
@@ -27,7 +27,8 @@
     },
     "fallbackUrls": [
       "https://niyaniya.moe",
-      "https://panda.chaika.moe"
+      "https://hoshino.one",
+      "https://anchira.to/"
     ]
   },
   "settings": {
