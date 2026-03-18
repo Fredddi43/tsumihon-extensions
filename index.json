@@ -133,6 +133,56 @@
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dlsite.json"
+    },
+    {
+      "id": "openbd",
+      "name": "openBD",
+      "description": "Japan ISBN Agency public database — ISBN lookup for Japanese books",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "menu_book",
+      "category": "reference",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/openbd.json"
+    },
+    {
+      "id": "mangaupdates",
+      "name": "MangaUpdates",
+      "description": "Comprehensive manga series database with author, genre, and publication info",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "auto_stories",
+      "category": "reference",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mangaupdates.json"
+    },
+    {
+      "id": "mediaarts",
+      "name": "Media Arts DB",
+      "description": "Agency for Cultural Affairs manga/anime database (bunka-cho)",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "account_balance",
+      "category": "reference",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mediaarts.json"
+    },
+    {
+      "id": "ndl",
+      "name": "NDL Search",
+      "description": "National Diet Library of Japan — comprehensive ISBN and book metadata search",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "local_library",
+      "category": "reference",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ndl.json"
+    },
+    {
+      "id": "dmm_official",
+      "name": "DMM Official API",
+      "description": "Official DMM/FANZA affiliate API for doujin search (requires API credentials)",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "storefront",
+      "category": "store",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm_official.json"
     }
   ]
 }

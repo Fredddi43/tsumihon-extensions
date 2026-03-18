@@ -1,0 +1,46 @@
+{
+  "id": "dmm_official",
+  "name": "DMM Official API",
+  "description": "Official DMM/FANZA affiliate API for doujin search (requires API credentials)",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "icon": "storefront",
+  "category": "store",
+  "baseUrl": "https://api.dmm.com",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": true,
+    "supportsPagination": true,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": true,
+    "supportsReading": false,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "dmm_official_api",
+    "endpoints": {
+      "search": "/affiliate/v3/ItemList",
+      "getById": "/affiliate/v3/ItemList"
+    }
+  },
+  "settings": {
+    "type": "generic",
+    "fields": [
+      {
+        "key": "apiId",
+        "type": "password",
+        "label": "API ID",
+        "hint": "Your DMM API ID",
+        "required": true
+      },
+      {
+        "key": "affiliateId",
+        "type": "text",
+        "label": "Affiliate ID",
+        "hint": "Your DMM Affiliate ID (e.g., yourname-990)",
+        "required": true
+      }
+    ]
+  }
+}

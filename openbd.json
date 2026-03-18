@@ -1,0 +1,30 @@
+{
+  "id": "openbd",
+  "name": "openBD",
+  "description": "Japan ISBN Agency public database — ISBN lookup for Japanese books",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "icon": "menu_book",
+  "category": "reference",
+  "baseUrl": "https://api.openbd.jp",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": false,
+    "supportsIsbnScan": true,
+    "requiresConfiguration": false,
+    "supportsReading": false,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "openbd_api",
+    "endpoints": {
+      "search": "/v1/get",
+      "getById": "/v1/get"
+    }
+  },
+  "settings": {
+    "type": "none"
+  }
+}

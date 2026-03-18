@@ -1,0 +1,30 @@
+{
+  "id": "ndl",
+  "name": "NDL Search",
+  "description": "National Diet Library of Japan — comprehensive ISBN and book metadata search",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "icon": "local_library",
+  "category": "reference",
+  "baseUrl": "https://iss.ndl.go.jp",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsIsbnScan": true,
+    "requiresConfiguration": false,
+    "supportsReading": false,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "ndl_api",
+    "endpoints": {
+      "search": "/api/opensearch",
+      "getById": "/api/opensearch"
+    }
+  },
+  "settings": {
+    "type": "none"
+  }
+}

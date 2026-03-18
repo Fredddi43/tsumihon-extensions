@@ -1,0 +1,30 @@
+{
+  "id": "mangaupdates",
+  "name": "MangaUpdates",
+  "description": "Comprehensive manga series database with author, genre, and publication info",
+  "version": "1.0.0",
+  "author": "Tsumihon",
+  "icon": "auto_stories",
+  "category": "reference",
+  "baseUrl": "https://api.mangaupdates.com",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": false,
+    "supportsReading": false,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "mangaupdates_api",
+    "endpoints": {
+      "search": "/v1/series/search",
+      "getById": "/v1/series/{id}"
+    }
+  },
+  "settings": {
+    "type": "none"
+  }
+}
