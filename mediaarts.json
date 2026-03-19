@@ -6,7 +6,7 @@
   "author": "Tsumihon",
   "icon": "account_balance",
   "category": "reference",
-  "baseUrl": "https://mediaarts-db.bunka.go.jp",
+  "baseUrl": "https://mediaarts-db.artmuseums.go.jp",
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,
@@ -15,13 +15,13 @@
     "supportsIsbnScan": false,
     "requiresConfiguration": false,
     "supportsReading": false,
-    "requiresCorsProxy": true
+    "requiresCorsProxy": false
   },
   "apiConfig": {
     "type": "mediaarts_api",
     "endpoints": {
-      "search": "/api/search",
-      "getById": "/api/search/manga/{id}"
+      "search": "/sparql",
+      "getById": "/sparql"
     }
   },
   "settings": {
