@@ -12,7 +12,7 @@
     "supportsSearch": true,
     "supportsGetById": true,
     "requiresAuth": false,
-    "supportsPagination": true,
+    "supportsPagination": false,
     "supportsImageSearch": true,
     "supportsIsbnScan": false,
     "requiresConfiguration": false,
