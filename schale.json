@@ -34,5 +34,6 @@
   "settings": {
     "type": "none"
   },
-  "minAppVersion": "1.0.0"
+  "minAppVersion": "1.0.0",
+  "appStoreSafe": true
 }

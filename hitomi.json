@@ -29,5 +29,6 @@
   },
   "settings": {
     "type": "none"
-  }
+  },
+  "appStoreSafe": true
 }

@@ -49,5 +49,6 @@
   "minAppVersion": "1.0.0",
   "metadata": {
     "note": "Read-only extension for searching and browsing your LANraragi library. Does not modify your archives."
-  }
+  },
+  "appStoreSafe": true
 }

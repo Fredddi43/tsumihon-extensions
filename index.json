@@ -1,9 +1,9 @@
 {
   "repository": {
-    "name": "Official Tsumihon Extensions",
-    "version": "1.0.0",
-    "lastUpdated": "2025-01-22T00:00:00Z",
-    "description": "Official extension repository for Tsumihon doujinshi tracker"
+    "name": "Tsumihon Extensions",
+    "version": "1.1.0",
+    "lastUpdated": "2026-05-10T00:00:00Z",
+    "description": "Extension repository for Tsumihon"
   },
   "extensions": [
     {
@@ -14,7 +14,8 @@
       "author": "Tsumihon",
       "icon": "cloud_sync",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/schale.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/schale.json",
+      "appStoreSafe": true
     },
     {
       "id": "chaika",
@@ -24,7 +25,8 @@
       "author": "Tsumihon",
       "icon": "cloud_queue",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/chaika.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/chaika.json",
+      "appStoreSafe": true
     },
     {
       "id": "nhentai",
@@ -34,7 +36,8 @@
       "author": "Tsumihon",
       "icon": "library_books",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/nhentai.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/nhentai.json",
+      "appStoreSafe": true
     },
     {
       "id": "hentag",
@@ -44,7 +47,8 @@
       "author": "Tsumihon",
       "icon": "manage_search",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hentag.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hentag.json",
+      "appStoreSafe": true
     },
     {
       "id": "doujinshi",
@@ -54,7 +58,8 @@
       "author": "Tsumihon",
       "icon": "library_books",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/doujinshi.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/doujinshi.json",
+      "appStoreSafe": true
     },
     {
       "id": "hdoujin",
@@ -64,7 +69,8 @@
       "author": "Tsumihon",
       "icon": "collections_bookmark",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hdoujin.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hdoujin.json",
+      "appStoreSafe": true
     },
     {
       "id": "ehentai",
@@ -74,7 +80,8 @@
       "author": "Tsumihon",
       "icon": "archive",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ehentai.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ehentai.json",
+      "appStoreSafe": true
     },
     {
       "id": "lanraragi",
@@ -84,7 +91,8 @@
       "author": "Tsumihon",
       "icon": "dns",
       "category": "self_hosted",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/lanraragi.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/lanraragi.json",
+      "appStoreSafe": true
     },
     {
       "id": "melonbooks",
@@ -94,7 +102,8 @@
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/melonbooks.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/melonbooks.json",
+      "appStoreSafe": false
     },
     {
       "id": "hitomi",
@@ -104,7 +113,8 @@
       "author": "Tsumihon Team",
       "icon": "public",
       "category": "aggregator",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hitomi.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hitomi.json",
+      "appStoreSafe": true
     },
     {
       "id": "dmm",
@@ -114,25 +124,30 @@
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm.json",
+      "appStoreSafe": false
     },
-          {
-            "id": "amazon_jp",
-            "name": "Amazon.co.jp",
-            "description": "Search for books on Amazon Japan",
-            "version": "1.0.0",
-            "author": "Tsumihon",
-            "icon": "storefront",
-            "category": "store",
-            "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/amazon_jp.json"
-          },      {
-        "id": "dlsite",      "name": "DLsite",
+    {
+      "id": "amazon_jp",
+      "name": "Amazon.co.jp",
+      "description": "Search for books on Amazon Japan",
+      "version": "1.0.0",
+      "author": "Tsumihon",
+      "icon": "storefront",
+      "category": "store",
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/amazon_jp.json",
+      "appStoreSafe": false
+    },
+    {
+      "id": "dlsite",
+      "name": "DLsite",
       "description": "Digital doujin store (Maniax/Home/Books)",
       "version": "1.0.0",
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dlsite.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dlsite.json",
+      "appStoreSafe": false
     },
     {
       "id": "openbd",
@@ -142,7 +157,8 @@
       "author": "Tsumihon",
       "icon": "menu_book",
       "category": "reference",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/openbd.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/openbd.json",
+      "appStoreSafe": true
     },
     {
       "id": "mangaupdates",
@@ -152,7 +168,8 @@
       "author": "Tsumihon",
       "icon": "auto_stories",
       "category": "reference",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mangaupdates.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mangaupdates.json",
+      "appStoreSafe": true
     },
     {
       "id": "mediaarts",
@@ -162,7 +179,8 @@
       "author": "Tsumihon",
       "icon": "account_balance",
       "category": "reference",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mediaarts.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mediaarts.json",
+      "appStoreSafe": true
     },
     {
       "id": "ndl",
@@ -172,7 +190,8 @@
       "author": "Tsumihon",
       "icon": "local_library",
       "category": "reference",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ndl.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ndl.json",
+      "appStoreSafe": true
     },
     {
       "id": "dmm_official",
@@ -182,7 +201,8 @@
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
-      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm_official.json"
+      "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm_official.json",
+      "appStoreSafe": true
     }
   ]
 }

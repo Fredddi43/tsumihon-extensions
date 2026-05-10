@@ -42,5 +42,6 @@
         "required": true
       }
     ]
-  }
+  },
+  "appStoreSafe": true
 }
