@@ -202,7 +202,7 @@
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm_official.json",
-      "appStoreSafe": true
+      "appStoreSafe": false
     }
   ]
 }
