@@ -2,7 +2,7 @@
   "id": "ehentai",
   "name": "E-hentai",
   "description": "Large doujinshi archive (supports ExHentai with authentication)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "archive",
@@ -17,7 +17,8 @@
     "supportsIsbnScan": false,
     "requiresConfiguration": true,
     "supportsReading": true,
-    "requiresCorsProxy": true
+    "requiresCorsProxy": true,
+    "supportsCategorySearch": true
   },
   "apiConfig": {
     "type": "ehentai_api",
