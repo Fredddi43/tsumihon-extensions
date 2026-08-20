@@ -2,7 +2,7 @@
   "id": "dlsite",
   "name": "DLsite",
   "description": "Digital doujin store (Maniax/Home/Books)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "icon": "storefront",
   "category": "store",
@@ -25,5 +25,6 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
-  "appStoreSafe": false
+  "appStoreSafe": false,
+  "visibility": "public"
 }

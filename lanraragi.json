@@ -2,7 +2,7 @@
   "id": "lanraragi",
   "name": "LANraragi",
   "description": "Self-hosted manga/doujinshi server - Search and browse your local collection",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "dns",
@@ -50,5 +50,6 @@
   "metadata": {
     "note": "Read-only extension for searching and browsing your LANraragi library. Does not modify your archives."
   },
-  "appStoreSafe": true
+  "appStoreSafe": true,
+  "visibility": "selfhosted"
 }

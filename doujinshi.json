@@ -2,7 +2,7 @@
   "id": "doujinshi",
   "name": "Doujinshi.info",
   "description": "Comprehensive doujinshi database with multilingual support",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "library_books",
@@ -30,5 +30,6 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
-  "appStoreSafe": true
+  "appStoreSafe": true,
+  "visibility": "public"
 }

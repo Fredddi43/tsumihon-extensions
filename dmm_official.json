@@ -2,7 +2,7 @@
   "id": "dmm_official",
   "name": "DMM Official API",
   "description": "Official DMM/FANZA affiliate API for doujin search (requires API credentials)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "icon": "storefront",
   "category": "store",
@@ -43,5 +43,6 @@
       }
     ]
   },
-  "appStoreSafe": false
+  "appStoreSafe": false,
+  "visibility": "public"
 }

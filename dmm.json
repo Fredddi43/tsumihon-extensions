@@ -2,7 +2,7 @@
   "id": "dmm",
   "name": "DMM (FANZA)",
   "description": "Search and browse doujinshi from DMM/FANZA - Japan's leading digital content retailer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "storefront",
@@ -30,5 +30,6 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
-  "appStoreSafe": false
+  "appStoreSafe": false,
+  "visibility": "public"
 }

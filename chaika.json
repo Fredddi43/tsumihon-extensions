@@ -2,7 +2,7 @@
   "id": "chaika",
   "name": "chaika.panda.moe",
   "description": "Panda archive mirror with comprehensive search",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "cloud_queue",
@@ -30,5 +30,6 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
-  "appStoreSafe": true
+  "appStoreSafe": true,
+  "visibility": "public"
 }

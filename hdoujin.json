@@ -2,7 +2,7 @@
   "id": "hdoujin",
   "name": "Hdoujin",
   "description": "Doujinshi aggregator and archive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "collections_bookmark",
@@ -30,5 +30,6 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
-  "appStoreSafe": true
+  "appStoreSafe": true,
+  "visibility": "public"
 }

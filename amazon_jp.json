@@ -2,7 +2,7 @@
   "id": "amazon_jp",
   "name": "Amazon.co.jp",
   "description": "Search for books on Amazon Japan",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tsumihon",
   "icon": "storefront",
   "category": "store",
@@ -26,5 +26,6 @@
   "settings": {
     "type": "none"
   },
-  "appStoreSafe": false
+  "appStoreSafe": false,
+  "visibility": "public"
 }
