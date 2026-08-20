@@ -2,7 +2,7 @@
   "id": "lanraragi",
   "name": "LANraragi",
   "description": "Self-hosted manga/doujinshi server - Search and browse your local collection",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "dns",

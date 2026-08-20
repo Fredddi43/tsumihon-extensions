@@ -10,199 +10,217 @@
       "id": "schale",
       "name": "Schale Network",
       "description": "Multi-mirror doujinshi archive network with automatic fallback",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "cloud_sync",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/schale.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "chaika",
       "name": "chaika.panda.moe",
       "description": "Panda archive mirror with comprehensive search",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "cloud_queue",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/chaika.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "nhentai",
       "name": "nHentai",
       "description": "Popular doujinshi and manga aggregator",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "library_books",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/nhentai.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "hentag",
       "name": "Hentag",
       "description": "Doujinshi metadata aggregator and search service",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "manage_search",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hentag.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "doujinshi",
       "name": "Doujinshi.info",
       "description": "Comprehensive doujinshi database with multilingual support",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "library_books",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/doujinshi.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "hdoujin",
       "name": "Hdoujin",
       "description": "Doujinshi aggregator and archive",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "collections_bookmark",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hdoujin.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "ehentai",
       "name": "E-hentai",
       "description": "Large doujinshi archive (supports ExHentai with authentication)",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": "Tsumihon",
       "icon": "archive",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ehentai.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "lanraragi",
       "name": "LANraragi",
       "description": "Self-hosted manga/doujinshi server (requires configuration)",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "dns",
       "category": "self_hosted",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/lanraragi.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "selfhosted"
     },
     {
       "id": "melonbooks",
       "name": "Melonbooks",
       "description": "Search and browse doujinshi from Melonbooks - Japan's leading doujinshi retailer",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/melonbooks.json",
-      "appStoreSafe": false
+      "appStoreSafe": false,
+      "visibility": "public"
     },
     {
       "id": "hitomi",
       "name": "Hitomi.la",
       "description": "Search and browse galleries from Hitomi.la",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon Team",
       "icon": "public",
       "category": "aggregator",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/hitomi.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "dmm",
       "name": "DMM (FANZA)",
       "description": "Search and browse doujinshi from DMM/FANZA - Japan's leading digital content retailer",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm.json",
-      "appStoreSafe": false
+      "appStoreSafe": false,
+      "visibility": "public"
     },
     {
       "id": "amazon_jp",
       "name": "Amazon.co.jp",
       "description": "Search for books on Amazon Japan",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/amazon_jp.json",
-      "appStoreSafe": false
+      "appStoreSafe": false,
+      "visibility": "public"
     },
     {
       "id": "dlsite",
       "name": "DLsite",
       "description": "Digital doujin store (Maniax/Home/Books)",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dlsite.json",
-      "appStoreSafe": false
+      "appStoreSafe": false,
+      "visibility": "public"
     },
     {
       "id": "openbd",
       "name": "openBD",
       "description": "Japan ISBN Agency public database — ISBN lookup for Japanese books",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "menu_book",
       "category": "reference",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/openbd.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "private"
     },
     {
       "id": "mangaupdates",
       "name": "MangaUpdates",
       "description": "Comprehensive manga series database with author, genre, and publication info",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "auto_stories",
       "category": "reference",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mangaupdates.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "public"
     },
     {
       "id": "mediaarts",
       "name": "Media Arts DB",
       "description": "Agency for Cultural Affairs manga/anime database (bunka-cho)",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "account_balance",
       "category": "reference",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/mediaarts.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "private"
     },
     {
       "id": "ndl",
       "name": "NDL Search",
       "description": "National Diet Library of Japan — comprehensive ISBN and book metadata search",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "local_library",
       "category": "reference",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/ndl.json",
-      "appStoreSafe": true
+      "appStoreSafe": true,
+      "visibility": "private"
     },
     {
       "id": "dmm_official",
       "name": "DMM Official API",
       "description": "Official DMM/FANZA affiliate API for doujin search (requires API credentials)",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Tsumihon",
       "icon": "storefront",
       "category": "store",
       "downloadUrl": "https://raw.githubusercontent.com/Fredddi43/tsumihon-extensions/main/dmm_official.json",
-      "appStoreSafe": false
+      "appStoreSafe": false,
+      "visibility": "public"
     }
   ]
 }
